@@ -1,0 +1,18 @@
+.reviewCard {
+    background-color: #f8f6f3;
+    width: 22rem;
+    padding: 3rem;
+    @media screen and (max-width: 900px) and (min-width: 750px) {
+        width: 18rem;
+        padding: 1rem;
+    }
+}
+
+.reviewImg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+
+

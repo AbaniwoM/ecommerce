@@ -1,0 +1,41 @@
+.header {
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    min-height: 8vh;
+    z-index: 1;
+    @media screen and (max-width: 768px) {
+        min-height: 16vh;
+        align-items: center;
+    }
+}
+
+.header__right li {
+    cursor: pointer;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.left__list li {
+    cursor: pointer;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.header__detail {
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+}
+
+.logo__text {
+    cursor: pointer;
+}
+

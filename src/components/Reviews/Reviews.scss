@@ -1,0 +1,42 @@
+.cherry-img {
+    width: 2rem;
+}
+
+.prod-star {
+    width: 0.9rem;
+}
+
+.btn {
+    width: 9rem;
+    height:3rem;
+    font-size: 0.5rem;
+}
+
+.arrow-right {
+    color: white;
+}
+
+.reviewMidCard {
+    background: url("../../assets/oranges.jpg");
+    width: 20rem;
+    // background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    @media screen and (max-width: 480px) {
+        padding: 1.2rem;
+    }
+}
+
+.reviewCards {
+    margin: 0 5%;
+    @media screen and (max-width: 750px) {
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    @media screen and (max-width: 768px) and (min-width: 751px) {
+        margin: 0;
+        flex-wrap: wrap;
+        // justify-content: center;
+    }
+}

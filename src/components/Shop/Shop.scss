@@ -1,0 +1,14 @@
+.shopItems {
+    background: #f8f6f3;
+    justify-content: space-around;
+    padding: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    @media screen and (max-width: 480px) {
+        gap: 2rem;
+    }
+}
+
+.subItems {
+    background: #f8f6f3;
+}
